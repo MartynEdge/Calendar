@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <style>
+            .mainHeading {background-color:teal;border-style: solid;text-align: center;}
+            .mainSubHeading {background-color: skyblue;border-style:ridge; }
+            .mainInput {width:98%;background-color: white;border-style: groove;text-align: center;margin:auto;}
+            .mainBackground {background-color: powderblue;}
+            .dayDate {background-color:purple;border-style: double;color: white;text-align: center;}
+            .task {background-color:lightseagreen;border-style:solid;text-align:left;}
+                .taskName {background-color:blue;border-style: none;color: white;text-align:left;}
+                .taskWorkers {background-color:teal;border-style: none;color: white;text-align:left;}
+                .taskStatus {background-color:cyan;border-style: none;color: black;text-align:left;}
+                .taskComments {background-color:grey;border-style: none;color: white;text-align:center;}
+                .taskComment {background-color:seagreen;border-style: none;color: white;}
+        </style>
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+    <button id='Save'>Save</button>
+
+    <section>
+        <div class="dayDate">Monday, 3 January 2021</div>
+    
+        
+        <section class="task">
+            <div class="taskName">Test - Task Name</div>
+
+            <span class="taskWorkers">Working this shift:</span> testUserA, testUserB<br>
+
+            <span class="taskStatus">testUserA:</span>
+                <select name='status-taskTest-testUserA-03012021'>
+                        <option value='status-taskTest-01-03012021' selected>I can do this shift</option>
+                        <option value='status-taskTest-02-03012021'>I can't do this shift</option>
+                </select><br>
+
+                <span class="taskStatus">testUserB:</span> I can do this shift
+                <br>
+
+                <section class="taskComments">
+                    <span class="taskComment">Test - UserA</span> Have a good day!<br>
+                    <span class="taskComment">Test - UserB</span> Thanks!<br>
+                </section>
+            Comment: <input type='text' id='commentText_03012021'><br>
+            <button id='Accept'>Accept</button>
+            <button id='Decline'>Decline</button>
+        </section>
+        <!--*end_Task*-->
+    </section>
+    </body>
+    </html>
