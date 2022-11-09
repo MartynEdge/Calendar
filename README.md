@@ -1,6 +1,7 @@
 # Calendar
 
-Allows a group of people to arrange shift work. Written in PHP.
+A website which allows a group of users to arrange tasks, such as shift work. Written in PHP.
 
-![John Doe](./screenshot_johndoe.png)
 ![Jane Smith](./screenshot_janesmith.png)
+![John Doe](./screenshot_johndoe.png)
+
